@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace KDuma\SimpleDAL\DataIntegrity\Hash\Signer;
+namespace KDuma\SimpleDAL\Integrity\Hash\Signer;
 
 class HmacSha1SigningAlgorithm extends GenericHmacSigningAlgorithm
 {

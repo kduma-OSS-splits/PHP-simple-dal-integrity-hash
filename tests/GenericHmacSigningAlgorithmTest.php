@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use KDuma\SimpleDAL\DataIntegrity\Hash\Signer\GenericHmacSigningAlgorithm;
-use KDuma\SimpleDAL\DataIntegrity\Hash\Signer\HmacSha256SigningAlgorithm;
+use KDuma\SimpleDAL\Integrity\Hash\Signer\GenericHmacSigningAlgorithm;
+use KDuma\SimpleDAL\Integrity\Hash\Signer\HmacSha256SigningAlgorithm;
 
 test('sign and verify round-trip', function () {
     $signer = new GenericHmacSigningAlgorithm('key1', 'my-secret-key');

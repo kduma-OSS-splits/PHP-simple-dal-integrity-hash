@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use KDuma\SimpleDAL\DataIntegrity\Hash\Hasher\GenericPhpHashingAlgorithm;
-use KDuma\SimpleDAL\DataIntegrity\Hash\Hasher\Sha256HashingAlgorithm;
+use KDuma\SimpleDAL\Integrity\Hash\Hasher\GenericPhpHashingAlgorithm;
+use KDuma\SimpleDAL\Integrity\Hash\Hasher\Sha256HashingAlgorithm;
 
 test('sha256 hash produces 32 bytes', function () {
     $hasher = new GenericPhpHashingAlgorithm('sha256', 1);

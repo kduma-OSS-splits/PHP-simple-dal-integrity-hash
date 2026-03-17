@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace KDuma\SimpleDAL\DataIntegrity\Hash\Hasher;
+namespace KDuma\SimpleDAL\Integrity\Hash\Hasher;
 
-use KDuma\SimpleDAL\DataIntegrity\Contracts\HashingAlgorithmInterface;
+use KDuma\SimpleDAL\Integrity\Contracts\HashingAlgorithmInterface;
 
 class GenericPhpHashingAlgorithm implements HashingAlgorithmInterface
 {

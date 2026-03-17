@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace KDuma\SimpleDAL\DataIntegrity\Hash\Signer;
+namespace KDuma\SimpleDAL\Integrity\Hash\Signer;
 
-use KDuma\SimpleDAL\DataIntegrity\Contracts\SigningAlgorithmInterface;
+use KDuma\SimpleDAL\Integrity\Contracts\SigningAlgorithmInterface;
 
 class GenericHmacSigningAlgorithm implements SigningAlgorithmInterface
 {
